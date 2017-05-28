@@ -11,7 +11,6 @@ body {
     background-color: bisque;
 }
 
-
 a {
     transition: all .3s;
 }
@@ -71,8 +70,11 @@ sectionn {
     background-image: url(http://g1.gazetaprawna.pl/p/_wspolne/pliki/1954000/1954473-himalaje-gory.jpg);
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 80%;
+
 }
+
+
 
 #main-header,
 header-caption {
@@ -96,17 +98,16 @@ header-caption {
     overflow: hidden;
 }
 
-
-
 #about figure {
-    margin: 0;
+    margin-top:50%;
 }
 
 #about figure img {
-    max-width: 100%;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
     border: 10px solid #fff;
-    border-radius: 10px;
+    border-radius: 30px;
+    
 }
 
 #about div p {
