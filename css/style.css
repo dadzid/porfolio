@@ -1,0 +1,118 @@
+/* General styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    margin: 0;
+    background-color: bisque;
+}
+
+
+a {
+    transition: all .3s;
+}
+
+span {
+    color: green;
+    font-size: 400;
+}
+
+sectionn {
+    padding: 30px 80px;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+}
+
+
+/* General styles STOP */
+
+
+/* Main nav styles - start */
+
+#main-nav {
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+#main-nav ul {
+    margin: 0;
+    text-align: right;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300px;
+    text-transform: lowercase;
+}
+
+#main-nav ul li a:hover {
+    color: aqua
+}
+
+
+/*main header start*/
+
+#main-header {
+    background-image: url(http://g1.gazetaprawna.pl/p/_wspolne/pliki/1954000/1954473-himalaje-gory.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+#main-header,
+header-caption {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*main header stop*/
+
+
+/*about section*/
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+}
+
+
+
+#about figure {
+    margin: 0;
+}
+
+#about figure img {
+    max-width: 100%;
+    max-height: 300px;
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+
+#about div p {
+    font-weight: 300;
+    line-height: 24px;
+}
+
+
+/* aboout section stop*/
